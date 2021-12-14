@@ -1,0 +1,421 @@
+#navbar{
+    background-color: #21d13c;
+}
+
+#navbarSearch{
+    background-color: #5cff75;
+}
+
+.firstPicture{
+    height: 50vh;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.textLine1{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    font-size: 8vh;
+}
+
+.textLine2{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    font-size: 8vh;
+}
+
+.textLine3{
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    font-size: 2.5vh;
+}
+
+.textLine4{
+    position: absolute;
+    top: 76%;
+    left: 5%;
+    font-size: 2.5vh;
+}
+
+.buyNow{
+    position: absolute;
+    top: 86%;
+    left:5%;
+
+}
+
+.bigPicture{
+    max-width: 100%;
+    height: 60vh;
+    width: fit-content;
+}
+
+.lakmePicture{
+    position: absolute;
+    top: 79%;
+    left: 10%;
+    width: 12%;
+}
+
+.askRequirements{
+    display: flex;
+    margin-top: 7%;
+}
+
+.question{
+    margin-left: 38%;
+}
+
+#viewButton{
+    margin-left: 20%;
+    margin-right: 5%;
+}
+
+.checkProducts{
+    position: relative;
+    margin-left: 40%;
+    font-size: 2vh;
+    margin-bottom: 3vh;
+}
+
+.productImage{
+    width: 46.5vh;
+    height: 35vh;
+}
+
+#img2{
+    height: 35vh;
+}
+
+.covid-19{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#bgPeople{
+    margin-top:9vh;
+    width: 139vh;
+}
+
+#people{
+    position: absolute;
+    top: 37%;
+    left: 36%;
+    width: 90vh;
+}
+
+#staySafe{
+    position: absolute;
+    top: 37%;
+    left: 3%;
+    width: 30vh;
+}
+
+#aboutCovid{
+    position: absolute;
+    top: 87%;
+    left: 3%;
+    width: 20vh;
+}
+
+#anglesRight{
+    position: absolute;
+    top: 87%;
+    left: 19%;
+    width: 3vh;
+}
+
+.catsAndArrivals{
+    position: relative;
+    text-align: center;
+}
+
+#categories{
+    position: absolute;
+    margin-top: 5vh;
+    left: 3%;
+    width: 30vh;
+}
+
+#newArrival{
+    position: absolute;
+    margin-top: 5vh;
+    left: 65%;
+    width: 30vh;
+}
+
+#catsLorem{
+    position: absolute;
+    width: 43vh;
+    margin-top: 15vh;
+    left: 3%;
+}
+
+#arrivalLorem1{
+    position: absolute;
+    margin-top: 15vh;
+    width: 85vh;
+    left: 39%;
+}
+
+#arrivalLorem2{
+    position: absolute;
+    margin-top: 18vh;
+    width: 40vh;
+    left: 55%;
+}
+
+.btn-viewAll{
+    position: absolute;
+    margin-top: 5vh;
+    left: 95%;
+}
+
+.threeEntities{
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.entity1{
+    position: relative;
+    text-align: center;
+}
+
+#entity1BG{
+    position: absolute;
+    width: 45vh;
+    margin-top: 30vh;
+    left: 2%;
+    height: 75vh;
+}
+
+.categoryRows1{
+    position: absolute;
+    margin-top: 35vh;
+}
+
+.categoryRows2{
+    position: absolute;
+    margin-top: 45vh;
+}
+.categoryRows3{
+    position: absolute;
+    margin-top: 55vh;
+}
+.categoryRows4{
+    position: absolute;
+    margin-top: 65vh;
+}
+.categoryRows5{
+    position: absolute;
+    margin-top: 75vh;
+}
+.categoryRows6{
+    position: absolute;
+    margin-top: 85vh;
+}
+.categoryRows7{
+    position: absolute;
+    margin-top: 95vh;
+}
+
+
+#entityOne{
+    position: absolute;
+    width: 5vh;
+    margin-left: 5vh;
+}
+
+#entityTwo{
+    position: absolute;
+    margin-left: 15vh;
+}
+
+#entityThree{
+    position: absolute;
+    width: 3vh;
+    margin-left: 40vh;
+}
+
+.medication{
+    width: 22vh;
+}
+
+.allergies{
+    width: 18vh;
+}
+
+.cosmetics{
+    width: 22vh;
+}
+
+.supplements{
+    width: 22vh;
+}
+
+.health{
+    width: 15vh;
+}
+
+.medicine{
+    width: 22vh;
+}
+
+.protection{
+    width: 22vh;
+}
+
+.entity2{
+    position: relative;
+    text-align: center;
+}
+
+#productRows1{
+    position: absolute;
+    margin-top: 30vh;
+    left: 40%;
+}
+
+#productRows2{
+    position: absolute;
+    margin-top: 65vh;
+    left: 40%;
+}
+
+#productRows3{
+    position: absolute;
+    margin-top: 100vh;
+    left: 40%;
+}
+
+.entity3{
+    position: relative;
+    text-align: center;
+}
+
+#lakmeAdd{
+    position: absolute;
+    margin-top: 105vh;
+    left: 2%;
+    width: 45vh;
+}
+
+.finalRow{
+    margin-top: 160vh;
+}
+
+.height {
+    height: 7vh
+}
+
+.search {
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1)
+}
+
+.search input {
+    height: 60px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4
+}
+
+.search input:focus {
+    box-shadow: none;
+    border: 2px solid blue
+}
+
+.search .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 16px
+}
+
+.search button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 50px;
+    width: 110px;
+    background: blue
+}
+
+.topProducts{
+    position: relative;
+    text-align: center;
+}
+
+#topSelling{
+    position: absolute;
+    margin-top: 145vh;
+    left: 30%;
+    width: 50vh;
+}
+
+#coldFever{
+    position: absolute;
+    margin-top: 154vh;
+    left: 15%;
+    width: 15vh;
+}
+
+#dryEyes{
+    position: absolute;
+    margin-top: 154vh;
+    left: 30%;
+    width: 11vh;
+}
+
+#nutrition{
+    position: absolute;
+    margin-top: 154vh;
+    left: 42%;
+    width: 11vh;
+}
+
+#skinCare{
+    position: absolute;
+    margin-top: 154vh;
+    left: 55%;
+    width: 11vh;
+}
+
+#vitamins{
+    position: absolute;
+    margin-top: 154vh;
+    left: 70%;
+    width: 11vh;
+}
+
+.twoRow{
+    display: none;
+}
+
+.threeRow{
+    display: none;
+}
+
+.fourRow{
+    display: none;
+}
+
+.fiveRow{
+    display: none;
+}
+
+#prodPara{
+    margin-right: 0;
+}
+
+.footer{
+    background-color: #21d13c;
+    margin-top: 15vh;
+    height: 5vh;
+    font-size: 2.5vh;
+    padding-left: 35%;
+}

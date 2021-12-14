@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDICINAL</title>
+    <link rel="stylesheet" type="text/css" href="styles/index.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Medical</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Products
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Login</a>
+              </li>
+            </ul>
+            <form class="row height d-flex justify-content-center align-items-center">
+                <div class="col-md-8">
+                    <div class="search">
+                        <i class="fa fa-search"></i>
+                        <input class="form-control me-2" id="navbarSearch" type="search" placeholder="Search" aria-label="Search">
+                    </div>
+                </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <!--First Picture-->
+    <div class="firstPicture">
+        <div class="sliderContainer">
+            <div class="imageSlider">
+                <img class="bigPicture" src="materials/Rectangle 1.png">
+            </div>
+            <div class="imageSlider">
+                <img class="bigPicture" src="materials/Jacques_callot,_le_grandi_miserie_della_guerra,_1633,_02.jpg">
+            </div>
+            <div class="imageSlider">
+                <img class="bigPicture" src="materials/Frame 3.png">
+            </div>
+            <!--Dots For Showing Slide Number-->
+            <div style="text-align:center">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+              </div>
+        </div>
+        <div class="textLine1">Sun Protection</div>
+        <div class="textLine2">Cream Spf50</div>
+        <div class="textLine3">Lorem ipsum dolor sit amet, consectetur adipiscing</div>
+        <div class="textLine4">elit, sed do eiusmod tempor incididunt</div>
+        <button type="button" class="buyNow btn btn-secondary">Buy Now</button>
+        <img class="lakmePicture" src="materials/LakmeSunExpertUltraMatteGelSunscreenSPF50PA_50ML_800x 1.png"> 
+    </div>
+
+    <!--Needed Things-->
+    <div class="askRequirements">
+        <h1 class="question">What Do you need today</h1>
+        <button type="button" class="btn btn-success" id="viewButton">View All</button>
+    </div>
+
+    <!--Check The Products-->
+    <div class="checkProducts">
+        <div id="prodPara">Check our featured products and deals</div>
+    </div>
+
+    <!--Container Throughout From Here-->
+    <div class="container">
+        <!--First 2 rows of products-->
+        <div class="row">
+            <div class="col-lg-4 col-sm-12" id="padding-0">
+                <a><img class="productImage" src="materials/card 4.png"></a>
+            </div>
+            <div class="col-lg-4 col-sm-12" id="padding-0">
+                <a><img class="productImage" id="img2" src="materials/card2.png"></a>
+            </div>
+            <div class="col-lg-4 col-sm-12" id="padding-0">
+                <a><img class="productImage" src="materials/card 4.png"></a>
+            </div>
+          </div>
+        
+          <div class="row">
+            <div class="col-lg-4 col-sm-12" id="padding-0">
+                <a><img class="productImage" src="materials/card 4.png"></a>
+            </div>
+            <div class="col-lg-4 col-sm-12" id="padding-0">
+                <a><img class="productImage" id="img2" src="materials/card2.png"></a>
+            </div>
+            <div class="col-lg-4 col-sm-12" id="padding-0">
+                <a><img class="productImage" src="materials/card 4.png"></a>
+            </div>
+          </div>
+
+        <!--Covid-19 Panel-->
+        <div class="covid-19">
+            <img id="bgPeople" src="materials/Rectangle 245.png">
+            <img id="staySafe" src="materials/Stay Safe. Wear a Mask!!.png">
+            <img id="aboutCovid" src="materials/About Covid 19.png">
+            <a><img id="anglesRight" src="materials/angle-double-right.png"></a>
+            <img id="people" src="materials/group-people-different-nationalities-wearing-260nw-1918370648 1.png">
+        </div>
+
+        <!--Categories and New Arrivals-->
+        <div class="catsAndArrivals">
+            <img id="categories" src="materials/Categories.png">
+            <img id="newArrival" src="materials/New Arrival.png">
+            <img id="catsLorem" src="materials/Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus tortor posuere laoreet et ac. Fames facilisi convallis lorem non viverra..png">
+            <img id="arrivalLorem1" src="materials/Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lorem lorem pretium..png">
+            <img id="arrivalLorem2" src="materials/Lorem ipsum dolor sit amet, consectetur..png">
+            <button type="button" class="btn btn-success btn-viewAll">View All</button>
+        </div>
+
+        <!--New Div for 2 different types of elements i.e, 1 block of categories and 1 grid consisting of 2 items-->
+
+        <div class="threeEntities">
+            <div class="entity1">
+                <!--Different Categories-->
+                <img id="entity1BG" src="materials/Rectangle 247.png">
+                <!--rows for different categories-->
+                <div class="categoryRows1">
+                    <img id="entityOne" src="materials/medicine-tablets-svgrepo-com 1.png">
+                    <a><img id="entityTwo" class="medication" src="materials/Medication.png"></a>
+                    <img id="entityThree" src="materials/plus.png">
+                </div>
+                <div class="categoryRows2">
+                    <img id="entityOne" src="materials/medicine-tablets-svgrepo-com 1.png">
+                    <a><img id="entityTwo" class="allergies"  src="materials/Allergies.png"></a>
+                    <img id="entityThree" src="materials/plus.png">
+                </div>
+                <div class="categoryRows3">
+                    <img id="entityOne" src="materials/cosmetics-svgrepo-com 1.png">
+                    <a><img id="entityTwo" class="cosmetics" src="materials/Cosmetics.png"></a>
+                    <img id="entityThree" src="materials/plus.png">
+                </div>
+                <div class="categoryRows4">
+                    <img id="entityOne" src="materials/medicine-tablets-svgrepo-com 1.png">
+                    <a><img id="entityTwo" class="supplements" src="materials/Dietary Supplements.png"></a>
+                    <img id="entityThree" src="materials/plus.png">
+                </div>
+                <div class="categoryRows5">
+                    <img id="entityOne" src="materials/health-care-svgrepo-com 1.png">
+                    <a><img id="entityTwo" class="health" src="materials/Health.png"></a>
+                    <img id="entityThree" src="materials/plus.png">
+                </div>
+                <div class="categoryRows6">
+                    <img id="entityOne" src="materials/medicine-tablets-svgrepo-com 1.png">
+                    <a><img id="entityTwo" class="medicine" src="materials/Medicine.png"></a>
+                    <img id="entityThree" src="materials/plus.png">
+                </div>
+                <div class="categoryRows7">
+                    <img id="entityOne" src="materials/face-mask-fill-svgrepo-com 1.png">
+                    <a><img id="entityTwo" class="protection" src="materials/Protection.png"></a>
+                    <img id="entityThree" src="materials/plus.png">
+                </div>
+            </div>
+
+
+            <div class="entity2">
+                <div class="row" id="productRows1">
+                    <div class="col-lg-6 col-sm-12" id="padding-0">
+                        <a><img class="productImage" src="materials/card 4.png"></a>
+                    </div>
+                    <div class="col-lg-6 col-sm-12" id="padding-0">
+                        <a><img class="productImage" id="img2" src="materials/card2.png"></a>
+                    </div>
+                  </div>
+                  <div class="row" id="productRows2">
+                    <div class="col-lg-6 col-sm-12" id="padding-0">
+                        <a><img class="productImage" src="materials/card 4.png"></a>
+                    </div>
+                    <div class="col-lg-6 col-sm-12" id="padding-0">
+                        <a><img class="productImage" id="img2" src="materials/card2.png"></a>
+                    </div>
+                  </div>
+                  <div class="row" id="productRows3">
+                    <div class="col-lg-6 col-sm-12" id="padding-0">
+                        <a><img class="productImage" src="materials/card 4.png"></a>
+                    </div>
+                    <div class="col-lg-6 col-sm-12" id="padding-0">
+                        <a><img class="productImage" id="img2" src="materials/card2.png"></a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="entity3">
+                <a><img id="lakmeAdd" src="materials/Rectangle 248.png"></a>
+            </div>
+        </div>
+
+        <!--Top Products Sections-->
+        <div class="topProducts">
+            <img id="topSelling" src="materials/Top Selling products.png">
+            <button><img id="coldFever" onclick="coldFever()" src="materials/Cold & Fever.png"></button>
+            <button><img id="dryEyes" onclick="dryEyes()" src="materials/Dry Eyes.png"></button>
+            <button><img id="nutrition" onclick="nutrition()"  src="materials/Nutrition.png"></button>
+            <button><img id="skinCare" onclick="skinCare()" src="materials/Skincare.png"></button>
+            <button><img id="vitamins" onclick="vitamins()" src="materials/Vitamins.png"></button>
+        </div>
+
+        <!--Final 2 rows of products-->
+        <div class="finalRow">
+            <div class="oneRow">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12" id="padding-0">
+                        <a><img class="productImage" src="materials/card 4.png"></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-12" id="padding-0">
+                        <a><img class="productImage" id="img2" src="materials/card2.png"></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-12" id="padding-0">
+                        <a><img class="productImage" src="materials/card 4.png"></a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-4 col-sm-12" id="padding-0">
+                        <a><img class="productImage" src="materials/card 4.png"></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-12" id="padding-0">
+                        <a><img class="productImage" id="img2" src="materials/card2.png"></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-12" id="padding-0">
+                        <a><img class="productImage" src="materials/card 4.png"></a>
+                    </div>
+                  </div>
+            </div>  
+            <div class="twoRow">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12" id="padding-0">
+                        <a><img class="productImage" id="img2" src="materials/card2.png"></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-12" id="padding-0">
+                        <a><img class="productImage" src="materials/card 4.png"></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-12" id="padding-0">
+                        <a><img class="productImage" src="materials/card 4.png"></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12" id="padding-0">
+                        <a><img class="productImage" id="img2" src="materials/card2.png"></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-12" id="padding-0">
+                        <a><img class="productImage" src="materials/card 4.png"></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-12" id="padding-0">
+                        <a><img class="productImage" src="materials/card 4.png"></a>
+                    </div>
+                </div>
+            </div> 
+            <div class="threeRow">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12" id="padding-0">
+                        <a><img class="productImage" src="materials/card 4.png"></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-12" id="padding-0">
+                        <a><img class="productImage" id="img2" src="materials/card2.png"></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-12" id="padding-0">
+                        <a><img class="productImage" src="materials/card 4.png"></a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-4 col-sm-12" id="padding-0">
+                        <a><img class="productImage" src="materials/card 4.png"></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-12" id="padding-0">
+                        <a><img class="productImage" id="img2" src="materials/card2.png"></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-12" id="padding-0">
+                        <a><img class="productImage" src="materials/card 4.png"></a>
+                    </div>
+                  </div>
+            </div> 
+            <div class="fourRow">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12" id="padding-0">
+                        <a><img class="productImage" id="img2" src="materials/card2.png"></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-12" id="padding-0">
+                        <a><img class="productImage" src="materials/card 4.png"></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-12" id="padding-0">
+                        <a><img class="productImage" src="materials/card 4.png"></a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-4 col-sm-12" id="padding-0">
+                        <a><img class="productImage" id="img2" src="materials/card2.png"></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-12" id="padding-0">
+                        <a><img class="productImage" src="materials/card 4.png"></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-12" id="padding-0">
+                        <a><img class="productImage" src="materials/card 4.png"></a>
+                    </div>
+                  </div>
+            </div> 
+            <div class="fiveRow">
+                <div class="row">
+                    <div class="col-lg-4 col-sm-12" id="padding-0">
+                        <a><img class="productImage" src="materials/card 4.png"></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-12" id="padding-0">
+                        <a><img class="productImage" id="img2" src="materials/card2.png"></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-12" id="padding-0">
+                        <a><img class="productImage" src="materials/card 4.png"></a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-4 col-sm-12" id="padding-0">
+                        <a><img class="productImage" src="materials/card 4.png"></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-12" id="padding-0">
+                        <a><img class="productImage" id="img2" src="materials/card2.png"></a>
+                    </div>
+                    <div class="col-lg-4 col-sm-12" id="padding-0">
+                        <a><img class="productImage" src="materials/card 4.png"></a>
+                    </div>
+                  </div>
+            </div> 
+        </div>
+    </div>
+
+    <!--Footer(Added From My Side)-->
+    <div class="footer">
+        <p>Created By Raj Gupta For RACreators</p>
+    </div>
+
+    <script src="scripts/index.js"></script>
+</body>
+</html>
